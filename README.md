@@ -1,49 +1,36 @@
-# NLS Voice Assistant (All-in-One)
+# NLS Voice Assistant
 
-A streamlined, containerized voice assistant that integrates **Ollama** for intelligent reasoning, **Whisper** for robust speech-to-text, and **Streamlit** for a clean user interface.
+A fully offline voice assistant pipeline — no cloud APIs, no external dependencies at runtime.
+Integrates Whisper for speech-to-text, Qwen 2.5 7B (via Ollama) for LLM reasoning,
+and Kokoro TTS for text-to-speech, served through a Streamlit UI.
 
-## 🚀 How to Run (For Evaluation)
-Follow these steps to build and launch the assistant. Ensure you have [Docker](https://www.docker.com/) installed on your machine.
+## Stack
 
-The image provided have already been built so please run the below command:
-Here is a professionally formatted README.md based on your specific Dockerfile and setup. It uses the "Small File / Automatic Download" approach so your professor gets a lightweight .tar file.
+- **STT** — OpenAI Whisper (small)
+- **LLM** — Qwen 2.5 7B Instruct via Ollama
+- **TTS** — Kokoro ONNX (kokoro-v1.0)
+- **UI** — Streamlit
+- **Containerization** — Docker (all-in-one)
 
-NLS Voice Assistant (Evaluation)
-A containerized AI Voice Assistant featuring Ollama (Qwen 2.5), OpenAI Whisper, and Streamlit. This assistant provides high-fidelity speech-to-text and LLM reasoning in a single "All-in-One" Docker environment.
-
-1. Load the Image
-Load the provided image file into your local Docker environment:
-
-```
-docker load -i nls_assistant_full.tar
-```
-
-2. Start the Application
-Run the following command to launch the integrated Ollama and Streamlit servers:
+## Run with Docker
 
 ```bash
 docker run --rm -p 8501:8501 \
   -e OLLAMA_MODEL=qwen2.5:7b-instruct \
   -e PYTHONPATH=/app/source \
   nls-voice-assistant:allinone
-  ```
+```
 
-3. Open the Dashboard
-Once the container initialization is complete, open your web browser and go to: 👉 http://localhost:8501
+Open http://localhost:8501 in your browser.
 
+> On first launch, Ollama (~4–5 GB) and Whisper (~461 MB) models download automatically.
+> This happens once; subsequent runs are fully local.
 
-## Important: First Run Initialization
-During the initial launch, the container will automatically download the necessary AI models. This process is required for local inference and will happen only once:
+## Run without Docker
 
-Ollama Model (qwen2.5:7b-instruct): ~4–5 GB
-Whisper Model (small): ~461 MB
-
-Note: This may take several minutes depending on your internet speed. This is expected behavior and ensures the assistant runs locally thereafter.
-
-
-
-**Steps to Run without Docker:**
-1. Pip install -r requirements.txt
-2. Download these two files and store in Source/Models : kokoro-v1.0.onnx and voices-v1.0.bin from here: https://github.com/thewh1teagle/kokoro-onnx
-3. Install ollama and pull a llm model and make sure its running on local
-4. use Command : streamlit run ui.py to launch UI.
+1. Install dependencies: `pip install -r requirements.txt`
+2. Download `kokoro-v1.0.onnx` and `voices-v1.0.bin` from
+   [kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx) and place in `source/models/`
+3. Install [Ollama](https://ollama.com), pull your model (`ollama pull qwen2.5:7b-instruct`),
+   and ensure it's running locally
+4. Launch: `streamlit run ui.py`
