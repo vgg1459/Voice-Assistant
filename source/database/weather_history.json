@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": " What is weather in Frankfurt tomorrow ?"
+  },
+  {
+    "role": "assistant",
+    "content": "Tomorrow in Frankfurt, expect broken clouds with temperatures ranging from a minimum of 10°C to a maximum of 19°C."
+  },
+  {
+    "role": "user",
+    "content": "What will it rain there on monday?"
+  },
+  {
+    "role": "assistant",
+    "content": "On Monday, there will be few clouds, so it doesn't look like it will rain."
+  },
+  {
+    "role": "user",
+    "content": " What is weather in Berlin on Friday ?"
+  },
+  {
+    "role": "assistant",
+    "content": "On Friday in Berlin, expect few clouds with temperatures ranging from a minimum of 13°C to a maximum of 16°C."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "role": "user",
+    "content": " add an event for titled XYZ from 4PM to 6PM  for tomorrow"
+  },
+  {
+    "role": "assistant",
+    "content": "- Event ID 1: XYZ on 2026-02-01 from 16:00 to 18:00."
+  },
+  {
+    "role": "user",
+    "content": " add an event for titled Seminar from 1PM to 2PM  for tomorrow in University"
+  },
+  {
+    "role": "assistant",
+    "content": "- Event ID 2: Seminar on 2026-02-01 from 13:00 to 14:00 at University."
+  },
+  {
+    "role": "user",
+    "content": "Set up a meeting for discussion with team at 5PM on 1st February for an hour"
+  },
+  {
+    "role": "assistant",
+    "content": "- Event ID 3: Team Discussion on 2026-02-01 from 15:00 to 16:00."
+  },
+  {
+    "role": "user",
+    "content": "Create a reminder for Project Submission at 5PM on 2nd February"
+  },
+  {
+    "role": "assistant",
+    "content": "- Event ID 4: Project Submission Reminder on 2026-02-02 from 15:00 to 15:00."
+  }
+]

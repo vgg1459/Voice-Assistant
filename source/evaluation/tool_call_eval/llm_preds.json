@@ -1,0 +1,383 @@
+[
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_3xx12uxa",
+        "function": {
+          "index": 0,
+          "name": "create_calendar_event",
+          "arguments": {
+            "description": "",
+            "end_time": "26-01-29T17:00",
+            "location": "",
+            "start_time": "26-01-29T14:00",
+            "title": "Seminar"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "content": "- Event ID 15: Discussion with team on 2026-02-01 from 17:00 to 18:00."
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_4bpr5mpn",
+        "function": {
+          "index": 0,
+          "name": "create_calendar_event",
+          "arguments": {
+            "description": "",
+            "end_time": "26-02-01T17:00",
+            "location": "",
+            "start_time": "26-02-01T15:00",
+            "title": "Discussion with team"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_zeom1s19",
+        "function": {
+          "index": 0,
+          "name": "create_calendar_event",
+          "arguments": {
+            "description": "Project Submission",
+            "end_time": "26-02-27T18:30",
+            "location": "Seminar room",
+            "start_time": "26-02-27T15:00",
+            "title": "Meeting with Professor"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_5meeiwv7",
+        "function": {
+          "index": 0,
+          "name": "create_calendar_event",
+          "arguments": {
+            "title": "Appointment with Doctor",
+            "description": "",
+            "location": "",
+            "start_time": "26-01-30T13:00",
+            "end_time": "26-01-30T14:00"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_hh3tie1d",
+        "function": {
+          "index": 0,
+          "name": "create_calendar_event",
+          "arguments": {
+            "end_time": "26-01-29T19:00",
+            "title": "Appointment Today",
+            "start_time": "26-01-29T18:00"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_xh1j7cp6",
+        "function": {
+          "index": 0,
+          "name": "list_calendar_events",
+          "arguments": {}
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_ln78in8k",
+        "function": {
+          "index": 0,
+          "name": "list_calendar_events",
+          "arguments": {}
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_bsgaf1qm",
+        "function": {
+          "index": 0,
+          "name": "list_calendar_events",
+          "arguments": {}
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_bsgaf1qm",
+        "function": {
+          "index": 0,
+          "name": "list_calendar_events",
+          "arguments": {}
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_bsgaf1qm",
+        "function": {
+          "index": 0,
+          "name": "list_calendar_events",
+          "arguments": {}
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_vtywgmn5",
+        "function": {
+          "index": 0,
+          "name": "delete_calendar_event",
+          "arguments": {
+            "id": 14
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_vtywgmn5",
+        "function": {
+          "index": 0,
+          "name": "delete_calendar_event",
+          "arguments": {
+            "id": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_vtywgmn5",
+        "function": {
+          "index": 0,
+          "name": "delete_calendar_event",
+          "arguments": {
+            "id": 10
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_vtywgmn5",
+        "function": {
+          "index": 0,
+          "name": "delete_calendar_event",
+          "arguments": {
+            "id": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_vtywgmn5",
+        "function": {
+          "index": 0,
+          "name": "delete_calendar_event",
+          "arguments": {
+            "id": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_x4qnbxpb",
+        "function": {
+          "index": 0,
+          "name": "update_calendar_event",
+          "arguments": {
+            "id": 11,
+            "start_time": "2026-01-30T19:00",
+            "end_time": "2026-01-30T20:00"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_1930hxam",
+        "function": {
+          "index": 0,
+          "name": "update_calendar_event",
+          "arguments": {
+            "id": 3,
+            "location": "University"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_326yccrb",
+        "function": {
+          "index": 0,
+          "name": "update_calendar_event",
+          "arguments": {
+            "location": "Unikilinikum",
+            "id": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "content": "Please provide ID of event to be updated."
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_kyb86f7m",
+        "function": {
+          "index": 0,
+          "name": "update_calendar_event",
+          "arguments": {
+            "id": 2,
+            "description": "mandatory attendance"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_4x8tg2pr",
+        "function": {
+          "index": 0,
+          "name": "get_weather",
+          "arguments": {
+            "place": "Frankfurt"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_4x8tg2pr",
+        "function": {
+          "index": 0,
+          "name": "get_weather",
+          "arguments": {
+            "place": "Marburg"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_4x8tg2pr",
+        "function": {
+          "index": 0,
+          "name": "get_weather",
+          "arguments": {
+            "place": "Bremen"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_4x8tg2pr",
+        "function": {
+          "index": 0,
+          "name": "get_weather",
+          "arguments": {
+            "place": "Bremen"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tool_call",
+    "tool_calls": [
+      {
+        "id": "call_4x8tg2pr",
+        "function": {
+          "index": 0,
+          "name": "get_weather",
+          "arguments": {
+            "place": "Bremen"
+          }
+        }
+      }
+    ]
+  }
+]

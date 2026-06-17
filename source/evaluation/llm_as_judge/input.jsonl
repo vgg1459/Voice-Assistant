@@ -1,0 +1,73 @@
+[
+  {
+    "context": {
+      "place": "Frankfurt",
+      "forecast": [
+        {"day": "saturday", "temperature": {"min": 15, "max": 20}, "weather": "broken clouds"},
+        {"day": "sunday", "temperature": {"min": 10, "max": 19}, "weather": "broken clouds"},
+        {"day": "monday", "temperature": {"min": 20, "max": 26}, "weather": "snow"},
+        {"day": "tuesday", "temperature": {"min": 15, "max": 24}, "weather": "rain"},
+        {"day": "wednesday", "temperature": {"min": 7, "max": 17}, "weather": "few clouds"},
+        {"day": "thursday", "temperature": {"min": -2, "max": 2}, "weather": "clear sky"},
+        {"day": "friday", "temperature": {"min": 14, "max": 23}, "weather": "scattered clouds"}
+      ]
+    },
+    "user_query": "What is weather in Frankfurt tomorrow?",
+    "assistant_response": "Tomorrow in Frankfurt, expect broken clouds with temperatures ranging from a minimum of 10°C to a maximum of 19°C."
+  },
+  {
+    "context": {
+      "place": "Frankfurt",
+      "forecast": [
+        {"day": "saturday", "temperature": {"min": 9, "max": 15}, "weather": "thunderstorm"},
+        {"day": "sunday", "temperature": {"min": 8, "max": 16}, "weather": "clear sky"},
+        {"day": "monday", "temperature": {"min": 3, "max": 13}, "weather": "few clouds"},
+        {"day": "tuesday", "temperature": {"min": 6, "max": 9}, "weather": "scattered clouds"},
+        {"day": "wednesday", "temperature": {"min": 5, "max": 12}, "weather": "snow"},
+        {"day": "thursday", "temperature": {"min": 7, "max": 13}, "weather": "rain"},
+        {"day": "friday", "temperature": {"min": 12, "max": 20}, "weather": "clear sky"}
+      ]
+    },
+    "user_query": "Will it rain there on Monday?",
+    "assistant_response": "On Monday, there will be few clouds, so it doesn't look like it will rain."
+  },
+  {
+    "context": {
+      "place": "Berlin",
+      "forecast": [
+        {"day": "saturday", "temperature": {"min": 5, "max": 14}, "weather": "scattered clouds"},
+        {"day": "sunday", "temperature": {"min": 17, "max": 20}, "weather": "shower rain"},
+        {"day": "monday", "temperature": {"min": -4, "max": 0}, "weather": "shower rain"},
+        {"day": "tuesday", "temperature": {"min": 17, "max": 26}, "weather": "shower rain"},
+        {"day": "wednesday", "temperature": {"min": 20, "max": 23}, "weather": "thunderstorm"},
+        {"day": "thursday", "temperature": {"min": 4, "max": 12}, "weather": "shower rain"},
+        {"day": "friday", "temperature": {"min": 13, "max": 16}, "weather": "few clouds"}
+      ]
+    },
+    "user_query": "What is weather in Berlin on Friday?",
+    "assistant_response": "On Friday in Berlin, expect few clouds with temperatures ranging from a minimum of 13°C to a maximum of 16°C."
+  },
+  {
+    "context": {
+      "calendar_events": [
+        {"id": 2, "title": "Seminar", "date": "2026-02-01", "start": "13:00", "end": "14:00", "location": "University"},
+        {"id": 3, "title": "Team Discussion", "date": "2026-02-01", "start": "15:00", "end": "16:00"},
+        {"id": 1, "title": "XYZ", "date": "2026-02-01", "start": "16:00", "end": "18:00"}
+      ]
+    },
+    "user_query": "Where is my next appointment?",
+    "assistant_response": "Your next appointment is a seminar at the University on February 1st, starting at 13:00."
+  },
+  {
+    "context": {
+      "calendar_events": [
+        {"id": 2, "title": "Seminar", "date": "2026-02-01", "start": "13:00", "end": "14:00", "location": "University"},
+        {"id": 3, "title": "Team Discussion", "date": "2026-02-01", "start": "15:00", "end": "16:00"},
+        {"id": 1, "title": "XYZ", "date": "2026-02-01", "start": "16:00", "end": "18:00"},
+        {"id": 4, "title": "Project Submission Reminder", "date": "2026-02-02", "start": "15:00", "end": "15:00"}
+      ]
+    },
+    "user_query": "Tell me my meetings tomorrow",
+    "assistant_response": "Tomorrow you have three meetings. There's a seminar at University from 13:00 to 14:00, a team discussion from 15:00 to 16:00, and an XYZ meeting from 16:00 to 18:00."
+  }
+]

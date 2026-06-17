@@ -1,0 +1,26 @@
+Add an appointment titled Seminar on 29th January from 2PM to 5PM | create_calendar_event
+make a meeting for discussion with team at 5PM on 1st February for an hour | create_calendar_event
+Set up a meeting for discussion with team at 5PM on 1st February for an hour| create_calendar_event
+Create a Project Submission meeting with Professor at 5PM on 27th february at Seminar room | create_calendar_event
+Add an appointment with Doctor on 30th January from 1PM to 2PM | create_calendar_event
+Add an appointment for today 6PM | create_calendar_event
+Tell me all my meetings tomorrow | list_calendar_events
+Where is my next appointment? | list_calendar_events
+What is my next appointment? | list_calendar_events
+Tell me my meetings for today | list_calendar_events
+When is my next appointment? | list_calendar_events
+Delete the previously created appointment | delete_calendar_event
+Delete my appointment with doctor | delete_calendar_event
+Delete my meeting titled XYZ | delete_calendar_event
+Delete my next meeting | delete_calendar_event
+Delete my meeting with Professor for tomorrow | delete_calendar_event
+Update time for my of my Meeting with shaliq to 7PM to 8PM | update_calendar_event
+Change location of my appointment with Professor to University | update_calendar_event
+Update location of my appointment with doctor today to Unikilinikum | update_calendar_event
+Update description of my meeting with Professor to important meeting for project | update_calendar_event
+Update description of meeting seminar to mandatory attendance | update_calendar_event
+What is the weather in Frankfurt on Thursday? | get_weather
+What is the weather in Marburg tomorrow? | get_weather
+What is the weather in Bremen Today? | get_weather
+Will it rain there on sunday? | get_weather
+How hot it is there on Thursday? | get_weather
