@@ -6,11 +6,11 @@ and Kokoro TTS for text-to-speech, served through a Streamlit UI.
 
 ## Stack
 
-- **STT** — OpenAI Whisper (small)
-- **LLM** — Qwen 2.5 7B Instruct via Ollama
-- **TTS** — Kokoro ONNX (kokoro-v1.0)
-- **UI** — Streamlit
-- **Containerization** — Docker (all-in-one)
+- **STT** - OpenAI Whisper (small)
+- **LLM** - Qwen 2.5 7B Instruct via Ollama
+- **TTS** - Kokoro ONNX (kokoro-v1.0)
+- **UI** - Streamlit
+- **Containerization** - Docker (all-in-one)
 
 ## Run with Docker
 
