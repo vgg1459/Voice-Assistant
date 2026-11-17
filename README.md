@@ -1,6 +1,6 @@
 # NLS Voice Assistant
 
-A fully offline voice assistant pipeline — no cloud APIs, no external dependencies at runtime.
+A fully offline voice assistant pipeline - no cloud APIs, no external dependencies at runtime.
 Integrates Whisper for speech-to-text, Qwen 2.5 7B (via Ollama) for LLM reasoning,
 and Kokoro TTS for text-to-speech, served through a Streamlit UI.
 
